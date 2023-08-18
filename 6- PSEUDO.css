@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    border: 10px solid #0FFF;
+color: chocolate;
+}
+
+input::placeholder{
+    color: #ff1396
+}
+
+p{
+    color: #ff1396;
+}
+
+p::first-letter{
+    color:black
+}
+
+p::first-line{
+    color: black;
+}
+
+p{
+    color: #ff1396;
+}
+
+p::after{
+    content: "😎";
+}
+
+a:active{
+    color:aqua;
+}
+input:checked{
+    width: 100px;
+    height: 100px;
+
+}
+
+
